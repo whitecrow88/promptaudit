@@ -1,5 +1,5 @@
 # [AppName] Wireframe Blueprint
-_Version: 1.0.1 — YYYY-MM-DD_
+_Version: 1.0.1 - YYYY-MM-DD_
 
 > Template derived from the **Wimboom Build Blueprint**, refactored for reuse across projects.  
 > Replace all bracketed variables `[AppName]`, `[Feature]`, `[Model]`, `[Service]`, etc.  
@@ -16,7 +16,7 @@ It is intended for **founders, engineers, and AI coding agents** to align on:
 - Visual structure  
 - Success metrics and QA  
 
-Treat it as both a **wireframe and execution blueprint** — the single source of truth from idea to release.
+Treat it as both a **wireframe and execution blueprint** - the single source of truth from idea to release.
 
 ---
 
@@ -48,9 +48,9 @@ Treat it as both a **wireframe and execution blueprint** — the single source o
 - **Primary Persona:** [Who + main goal]  
 - **Secondary Persona:** [Who + goal]  
 - **Macro Flow:**  
-  1. [Step 1 – entry point]  
-  2. [Step 2 – core action]  
-  3. [Step 3 – success state]
+  1. [Step 1 - entry point]  
+  2. [Step 2 - core action]  
+  3. [Step 3 - success state]
 
 ---
 
@@ -87,7 +87,7 @@ This section translates the MVP Goals into executable tasks for the AI Agent. Ea
   **Scenario:** Loading Data  
   - **Given** I am on the `/home` screen and data is stale  
   - **When** the screen is loaded  
-  - **Then** a `LoadingSpinner` is visible and a list of `FeedCards` appears after 1–3 seconds  
+  - **Then** a `LoadingSpinner` is visible and a list of `FeedCards` appears after 1-3 seconds  
 
 [Add Feature 3, 4, etc. as needed for MVP]
 
@@ -116,11 +116,11 @@ graph TD
 
 ### Navigation Tree
 ```
-/onboarding → /main
-   ├─ /home
-   ├─ /explore
-   ├─ /downloads
-   └─ /settings
+/onboarding -> /main
+  -> /home
+  -> /explore
+  -> /downloads
+  -> /settings
 ```
 
 *(Replace or extend with app-specific flow diagrams.)*
@@ -132,7 +132,7 @@ graph TD
 <!--TASK:theme-->
 - Theme tokens (colour, typography, spacing)  
 - Components: `GlassPanel`, `GradientButton`, `IconPill`, etc.  
-- Accessibility contrast ≥ 4.5 : 1  
+- Accessibility contrast >= 4.5 : 1  
 <!--DEPENDENCY:google_fonts, flex_color_scheme-->
 
 ---
@@ -188,7 +188,7 @@ The application must handle the following system-level failures gracefully:
 ### Testing
 - Unit > 80 % coverage  
 - Golden tests for visual parity  
-- Integration: onboarding → play → settings flow  
+- Integration: onboarding + play + settings flow  
 - Accessibility: screen-reader + text-scale + colour-blind simulation  
 
 ### Acceptance Checklist
@@ -201,7 +201,7 @@ The application must handle the following system-level failures gracefully:
 
 ## 9. Platform Compliance (iOS / Android)
 <!--SECTION:platform_compliance-->
-(Existing from previous version — App Store & Play Store guidelines.)
+(Existing from previous version - App Store & Play Store guidelines.)
 
 ---
 
@@ -223,7 +223,7 @@ The application must handle the following system-level failures gracefully:
 
 ---
 
-### ✅ Recommended Next Step
+### Next Step
 Save this as  
 `/templates/wireframe_blueprint_v1.1.md`  
-Then extend or override via brand-specific overlay files (e.g. `wimboom_overlay.md`).
+Then extend or override via brand-specific overlay files (e.g., `wimboom_overlay.md`).
